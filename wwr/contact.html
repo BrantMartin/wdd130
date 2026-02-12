@@ -10,6 +10,7 @@
 		/>
 		<title>Contact Page</title>
 		<link rel="stylesheet" href="styles/rafting.css" />
+		<title>Contact Page</title>
 	</head>
 
 	<body>
@@ -34,16 +35,24 @@
 			</div>
 			<div class="mapform">
 				<div class="map">
-					<img src="" alt="Map" />
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23077.226195739793!2d-77.82553370859584!3d36.50847039996874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1770934019721!5m2!1sen!2sus"
+						width="600"
+						height="450"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
 				</div>
 				<form>
 					<div>
 						<label for="name">Name</label>
-						<input type="text" id="name" required />
+						<input type="text" id="name" name="name" />
 					</div>
 					<div>
 						<label for="email">Email</label>
-						<input type="email" id="email" required />
+						<input type="email" id="email" name="email" />
 					</div>
 					<div class="inquiry">
 						<label for="purpose" class="inquirylabel"
@@ -52,7 +61,7 @@
 						<div>
 							<div>
 								<input
-									type="checkbox"
+									type="radio"
 									id="reason1"
 									name="reason1"
 									value="General"
@@ -61,7 +70,7 @@
 							</div>
 							<div>
 								<input
-									type="checkbox"
+									type="radio"
 									id="reason2"
 									name="reason2"
 									value="Reservation"
@@ -72,7 +81,7 @@
 							</div>
 							<div>
 								<input
-									type="checkbox"
+									type="radio"
 									id="reason3"
 									name="reason3"
 									value="Suggestion"
@@ -106,16 +115,16 @@
 			<section class="profilegrid">
 				<h2>We Are Here to Serve You</h2>
 				<figure class="profilepic">
-					<img src="" alt="Person1" />
-					<figcaption>Profile</figcaption>
+					<img src="images/guy1.jpeg" alt="Person1" />
+					<figcaption>John</figcaption>
 				</figure>
 				<figure class="profilepic">
-					<img src="" alt="Person2" />
-					<figcaption>Profile</figcaption>
+					<img src="images/guy2.jpeg" alt="Person2" />
+					<figcaption>Michael</figcaption>
 				</figure>
 				<figure class="profilepic">
-					<img src="" alt="Person3" />
-					<figcaption>Profile</figcaption>
+					<img src="images/guy3.jpeg" alt="Person3" />
+					<figcaption>Bob</figcaption>
 				</figure>
 			</section>
 		</main>
