@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Brant Martin" />
+		<meta
+			name="description"
+			content="A page to help people to get into contact with our company if they need to do so."
+		/>
+		<title>Contact Page</title>
+		<link rel="stylesheet" href="styles/rafting.css" />
+	</head>
+
+	<body>
+		<header>
+			<img src="images/splashlogo.png" alt="Rafting Logo" />
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="trips.html">Trips</a>
+				<a href="contact.html">Contact Us</a>
+			</nav>
+		</header>
+		<main class="contactmain">
+			<h1>Splash White Water Rafting</h1>
+			<div class="contactlist">
+				<ul>
+					<li>123 Main River Street</li>
+					<li>Kolob, California</li>
+					<li>+1 999 999 999</li>
+					<li>info@whitewater.com</li>
+				</ul>
+			</div>
+			<div class="mapform">
+				<div class="map">
+					<img src="" alt="Map" />
+				</div>
+				<form>
+					<div>
+						<label for="name">Name</label>
+						<input type="text" id="name" required />
+					</div>
+					<div>
+						<label for="email">Email</label>
+						<input type="email" id="email" required />
+					</div>
+					<div class="inquiry">
+						<label for="purpose" class="inquirylabel"
+							>Message Purpose</label
+						>
+						<div>
+							<div>
+								<input
+									type="checkbox"
+									id="reason1"
+									name="reason1"
+									value="General"
+								/>
+								<label for="reason1">General Inquiry</label>
+							</div>
+							<div>
+								<input
+									type="checkbox"
+									id="reason2"
+									name="reason2"
+									value="Reservation"
+								/>
+								<label for="reason2"
+									>Reservation Question</label
+								>
+							</div>
+							<div>
+								<input
+									type="checkbox"
+									id="reason3"
+									name="reason3"
+									value="Suggestion"
+								/>
+								<label for="reason3">Website Suggestion</label>
+							</div>
+						</div>
+					</div>
+					<div>
+						<label for="message">Message</label>
+						<textarea
+							name="message"
+							id="message"
+							rows="3"
+						></textarea>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="subscribe"
+							id="subscribe"
+						/>
+						<label for="subscribe"
+							>Please subscribe me to the monthly
+							newsletter</label
+						>
+						<button type="submit">Get in Touch</button>
+					</div>
+				</form>
+			</div>
+			<section class="profilegrid">
+				<h2>We Are Here to Serve You</h2>
+				<figure class="profilepic">
+					<img src="" alt="Person1" />
+					<figcaption>Profile</figcaption>
+				</figure>
+				<figure class="profilepic">
+					<img src="" alt="Person2" />
+					<figcaption>Profile</figcaption>
+				</figure>
+				<figure class="profilepic">
+					<img src="" alt="Person3" />
+					<figcaption>Profile</figcaption>
+				</figure>
+			</section>
+		</main>
+		<footer>
+			<p>©2026 💦 Brant Martin 💦 Splash White Water Rafting</p>
+			<nav class="socialmedia">
+				<a href="https://facebook.com"
+					><img src="images/facebook.svg" alt="Facebook Icon"
+				/></a>
+				<a href="https://linkedin.com"
+					><img src="images/linkedin.svg" alt="LinkedIn Icon"
+				/></a>
+				<a href="https://youtube.com"
+					><img src="images/youtube.svg" alt="YouTube Icon"
+				/></a>
+			</nav>
+		</footer>
+	</body>
+</html>

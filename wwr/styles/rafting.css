@@ -20,7 +20,7 @@
 body {
     font-family: var(--body-font);
     color: var(--secondary-color);
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
 
 header,
@@ -53,7 +53,7 @@ header {
     align-content: flex-end;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 
 .socialmedia a {
@@ -74,8 +74,8 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent2-color);
-    color: #fff;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 h2 {
@@ -107,7 +107,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 
 footer p {
@@ -134,4 +134,58 @@ footer p {
 .advenpic img {
     width: auto;
     height: 6rem;
+}
+
+.profilegrid {
+    display: grid;
+    grid-template: 4rem 8rem / 33% 34% 33%;
+    place-items: center;
+}
+
+.profilegrid h2 {
+    grid-column: 1 / 4;
+}
+
+.profilepic {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilepic img {
+    width: auto;
+    height: 6rem;
+}
+
+.mapform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    align-self: center;
+}
+
+.inquiry {
+    display: inline-flex;
+}
+
+.inquirylabel {
+    align-self: center;
+}
+
+form {
+    display: grid;
+}
+
+.contactlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    padding: 5px;
 }
